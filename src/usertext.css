@@ -107,11 +107,11 @@
 }
 
 .usertext button[type=submit] {
-  background-color: #dcfe00;
+  background-color: #5d89ee;
   color: #000;
 }
 .usertext button[type=submit]:hover {
-  background-color: #fbfe00;
+  background-color: #6f96f0;
 }
 
 .usertext button.cancel {
@@ -268,7 +268,7 @@
 }
 
 .md blockquote, .side .md blockquote {
-    border-left: 2px solid #c6c6c6;
+    border-left: 2px solid #456bd1;
     padding: 0 10px;
     margin: 10px 0;
 }
@@ -320,7 +320,7 @@
     display: block;
     padding: 7px 0 7px 15px;
     margin: 0 0 10px 0;
-    border-left: 3px solid #f1c40f;
+    border-left: 3px solid #456bd1;
     background: rgba(0,0,0,0.04);
 
 }

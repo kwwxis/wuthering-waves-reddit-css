@@ -43,7 +43,7 @@
 .res.res-nightmode .comment .expand:hover,
 .res.res-nightmode .comment.collapsed .expand:hover,
 .res.res-nightmode .comment.collapsed .tagline a.expand:hover {
-    background: #dcfe00;
+    background: #6f96f0;
     color: #000;
     text-decoration: none;
 }

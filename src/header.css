@@ -66,6 +66,7 @@
 /* pagename
 --------------------------------------------------------------------------------*/
 .pagename {
+    /*
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +77,13 @@
     right: 330px;
     bottom: 30px;
     left: 0;
-    margin: auto;
+    margin: auto; */
+  position: absolute!important;
+  top: 12px;
+  right: 0;
+  left: 0;
+  height: 197px;
+  font-size: 0;
 }
 
 .pagename a {
@@ -88,6 +95,7 @@
     background: url(%%logo%%) no-repeat center / 440px;
     transition: all 100ms linear;
     opacity: 0.9;
+  background: 0;
 }
 .pagename a:hover {
     opacity: 1;
@@ -505,8 +513,10 @@
   right: 0;
   bottom: 0;
   height: 46px;
-  background: #2f2f2f;
+  background: #292e33;
   z-index: 0;
+  border-top: 6px solid #456bd1;
+  box-shadow: 0 4px 2px -2px rgba(255,255,255,0.15)
 }
 
 #header .tabmenu {
@@ -535,56 +545,23 @@
   font-size: 13px;
   font-family: Calibri,Segoe,"Segoe UI",Verdana,Arial,sans-serif;
   letter-spacing: .5px;
-  padding: 0;
+  padding: 0 10px;
   position: relative;
   min-width: 50px;
   height: 30px;
   text-align: center;
-  background: #000;
-  margin: 0 16px 0 20px;
+  background: rgba(255,255,255,0.05);
   z-index: 0;
+  margin: 0 3px;
+  border-radius: 3px;
 }
-#header .tabmenu li a:before {
-  content: '';
-  background: url(%%tabmenu-item%%) no-repeat;
-  background-size: 80px;
-  background-position: 10px 0;
-  display: block;
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  right: 100%;
-  top: 0;
+#header .tabmenu li a:hover {
+  background: rgba(255,255,255,0.07);
 }
-#header .tabmenu li a:after {
-  content: '';
-  background: url(%%tabmenu-item%%) no-repeat;
-  background-size: 80px;
-  background-position: -64px 0;
-  display: block;
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  left: 100%;
-  top: 0;
+#header .tabmenu li.selected a,
+#header .tabmenu li.selected a:hover {
+    background: #3f61bd;
 }
-
-
-#header .tabmenu li:hover a:before,
-#header .tabmenu li:hover a:after,
-#header .tabmenu li.selected a:before,
-#header .tabmenu li.selected a:after {
-  background-image: url(%%tabmenu-masked%%);
-}
-
-#header .tabmenu li:hover a,
-#header .tabmenu li.selected a  {
-  background-image: url(%%tabmenu-mask-middle%%);
-  background-repeat: repeat;
-  background-size: 47px;
-  background-position: 0 0px;
-}
-
 
 #header .tabmenu li.res-tabmenu-button.res-toggle-filterline-visibility {
   display: none !important;

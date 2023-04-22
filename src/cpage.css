@@ -41,7 +41,17 @@
     font-size: 14px;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    color: #acbac8;
 }
+.commentarea .menuarea * {
+    color: #acbac8;
+}
+.commentarea .menuarea .toggle a,
+.commentarea .menuarea .help-hoverable,
+.commentarea .menuarea .dropdown.lightdrop .selected {
+  color: hsl(210 20% 64% / 1) !important;
+}
+
 
 .menuarea > .spacer {margin-bottom: 0 !important;margin-right:23px;}
 .menuarea>.spacer+.spacer {margin-right: 2px;}

@@ -22,6 +22,7 @@ order       = [ 'etc.css',
                 'wiki.css',
                 'footer.css',
                 'nightmode.css',
+                'overrides.css'
               ]      
                 
 # input/output variables
@@ -31,7 +32,7 @@ dist_file   = 'dist.css'
 unmin_file  = 'unmin.css'
 
 def top(build_ver):
-    return ('/* Stylesheet for /r/ZenlessZoneZero by /u/kwwxis; build #' + str(build_ver) + ' */')
+    return ('/* Stylesheet for /r/WutheringWaves by /u/kwwxis; build #' + str(build_ver) + ' */')
 
 def run():
     with open(r'build.dat','r+') as build:
@@ -65,7 +66,7 @@ def run():
             #mini = compress(raw)
             mini = rcssmin.cssmin(raw)
             outfile.seek(0)
-            outfile.write(top(build_ver) + '\n' + mini)
+            outfile.write(top(build_ver) + '\n' + mini + '\n')
             outfile.truncate()
             
         # Increment build version in build.dat afterwards in case of failure

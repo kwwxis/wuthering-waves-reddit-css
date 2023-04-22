@@ -57,10 +57,10 @@
     right: 40px;
     width: 320px;
     z-index: 99;
-    height: 120px;
+    height: 138px;
 }
 
-.titlebox>h1>a {
+.titlebox > h1 > a {
     background: url(%%logo%%);
     display: block;
     font-size: 0;
@@ -69,7 +69,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    width: 230px;
+    width: 200px;
     margin: 0 auto;
     background-size: contain;
     background-repeat: no-repeat;
@@ -221,11 +221,11 @@
 }
 
 .login-form-side .submit button {
-  background-color: #dcfe00;
+  background-color: #5d89ee;
   color: #000;
 }
 .login-form-side .submit button:hover {
-  background-color: #fbfe00;
+  background-color: #6f96f0;
   color: #000;
 }
 
@@ -244,7 +244,7 @@
 --------------------------------------------------------------------------------*/
 .linkinfo {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 0;
     padding: 10px;
     font-family: Segoe,"Segoe UI",Verdana,Arial,sans-serif;
@@ -300,7 +300,7 @@ html.res.res-nightmode body .side .linkinfo .date {
     padding: 5px 8px;
     font-size: 11px;
     box-sizing: border-box;
-    background: #333 !important;
+    background: #282e33 !important;
     color: #ccc !important;
 }
 
@@ -310,11 +310,11 @@ html.res.res-nightmode body .side .linkinfo .date {
     display: none;
 }
 
-
-body .side .submit .morelink, body .side .submit .morelink a {
+body .side .submit .morelink,
+body .side .submit .morelink a {
   margin: 0 auto;
-  height: 40px;
-  line-height: 40px;
+  height: 48px;
+  line-height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -323,57 +323,30 @@ body .side .submit .morelink, body .side .submit .morelink a {
   background: transparent;
   color: #fff !important;
   position: relative;
-  margin-bottom: 10px;
-  width: 260px;
+  margin-bottom: 0;
+  width: 300px;
 }
 
 body .side .submit .morelink a {
-  font-size: 16px;
-  font-family: Calibri,Segoe,"Segoe UI",Verdana,Arial,sans-serif;
-  letter-spacing: .5px;
+  display: block;
+  background: #456bd1;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 13.5px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  width: 300px;
+  margin: 10px;
   padding: 0;
   position: relative;
-  height: 40px;
-  text-align: center;
-  background: #000;
-  margin: 0 23px 0 20px;
   z-index: 0;
   overflow: visible;
+  font-weight: normal;
 }
-body .side .submit .morelink a:before {
-  content: '';
-  background: url(%%tabmenu-item%%) no-repeat;
-  background-size: 106px;
-  background-position: 20px 0;
-  display: block;
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  right: 100%;
-}
-body .side .submit .morelink a:after {
-  content: '';
-  background: url(%%tabmenu-item%%) no-repeat;
-  background-size: 106px;
-  background-position: -85px 0;
-  display: block;
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  left: 100%;
-}
-
-body .side .submit .morelink:hover a:before,
-body .side .submit .morelink:hover a:after {
-  background-image: url(%%tabmenu-masked%%);
-}
-
-body .side .submit .morelink:hover a,
-body .side .submit .morelink.selected a  {
-  background-image: url(%%tabmenu-mask-middle%%);
-  background-repeat: repeat;
-  background-size: 62px;
-  background-position: 0 0px;
+body .side .submit .morelink a:hover {
+    background: #5d89ee;
 }
 
 /* create subreddit button and message mod button
@@ -457,14 +430,14 @@ body .side .submit .morelink.selected a  {
     padding: 5px 0 7px;
 }
 .account-activity-box a {
-     color: rgba(0,0,0,0.6);
+    opacity: 0.4;
 }
 
 /* RES sr toggle
 --------------------------------------------------------------------------------*/
 
 form.toggle.res-sr-style-toggle {
-    margin-top: 8px;
+    margin-top: 0px;
     display: flex;
     align-items: center;
 }
@@ -506,11 +479,19 @@ html body .titlebox > .subscribers {
   letter-spacing: .5px;
   position: absolute;
   font-weight: bold;
-  color: #dcfe00 !important;
-  top: 381px;
-  width: 310px;
+  color: #4f4748 !important;
+  top: 402px;
+  width: 140px;
+  margin-left: 80px;
+  height: 20px;
+  line-height: 20px;
   text-align: center;
   z-index: 100;
+  background: #dfc89f;
+  box-shadow: 0 0 6px #4f4748;
+}
+html body .titlebox > .subscribers * {
+  color: #4f4748 !important;
 }
 .titlebox > .users-online {
     margin-bottom: 15px;
@@ -520,6 +501,14 @@ html body .titlebox > .subscribers {
     color: rgba(0,0,0,0.5);
 }
 .users-online:before { display: none; }
+
+.subscribers .number::after{
+    content: " Rovers"
+}
+
+.subscribers .word{
+    display:none
+}
 
 /* sub buttons
 --------------------------------------------------------------------------------*/
@@ -617,7 +606,7 @@ html body .titlebox > .subscribers {
 
 /* subscribe button */
 .fancy-toggle-button.subscribe-button.toggle a.option.active.add {
-    background: #dcfe00 !important;
+    background: #6f96f0 !important;
     color: #000 !important;
 }
 
@@ -635,6 +624,10 @@ html:not(.res) .titlebox .fancy-toggle-button.subscribe-button.toggle a.option.a
 
 /* sidebar common styles
 --------------------------------------------------------------------------------*/
+.side .md {
+    margin-top: 10px;
+}
+
 .side .md h1, .side .md h2, .side .md h3 {
     font-family: "Segoe UI",Segoe,Roboto,"Helvetica Neue",Helvetica,"Calibri Light",Calibri,sans-serif;
     text-align: center;
@@ -661,26 +654,21 @@ html:not(.res) .titlebox .fancy-toggle-button.subscribe-button.toggle a.option.a
     font-size: 13px;
 }
 
-.side .md > p:first-child:before {
-    content: '';
-    display: block;
-    width: 40px;
-    height: 1px;
-    background: rgba(0,0,0,0.15);
-    margin: 15px auto 15px;
+.side .md strong > a {
+  display: block;
+  background: url(%%btn-inactive%%)  center center / contain no-repeat;
+  height: 38px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Times New Roman', serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 -10px;
 }
-
-.side .md > p > strong {
-    color: #333;
-}
-.side .md > p:first-child > strong {
-  font-weight: bold;
-  font-size: 14px;
-  color: #555;
-}
-.side .md > hr + p > strong {
-  font-size: 17px;
-    color: #666;
+.side .md strong > a:hover {
+  background-image: url(%%btn-active%%);
 }
 
 /* sidebar lists
@@ -738,6 +726,6 @@ html:not(.res) .titlebox .fancy-toggle-button.subscribe-button.toggle a.option.a
 }
 .side .md > ul > li > a,
 .side .md > ol > li > a{
-  color: #dcfe00;
+  color: #6f96f0;
   font-weight: bold;
 }

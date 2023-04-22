@@ -6,7 +6,20 @@ body {
     position: relative;
     overflow-x: hidden;
     padding: 0 40px;
-    background: #000 url(%%bg-darker%%) repeat;
+    background: #000;
+}
+
+body:before {
+  content: '';
+  position: fixed;
+  z-index: -1;
+  pointer-events: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000 url(%%bg-aa21eb70%%) center top / cover no-repeat;
+  opacity: 0.9;
 }
 
 /* drop choices
