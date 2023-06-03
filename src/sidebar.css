@@ -563,8 +563,11 @@ html body .titlebox > .subscribers * {
 
 /* misc */
 
-.titlebox form.flairtoggle, .titlebox form.flairtoggle + .tagline {
-    display: none;
+.titlebox form.flairtoggle, .titlebox form.flairtoggle+.tagline {
+  padding: 0 10px;
+}
+.titlebox form.flairtoggle {
+  margin-top: 10px;
 }
 
 .titlebox form.leavecontributor-button:before, .titlebox .leavemoderator:before {

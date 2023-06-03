@@ -115,6 +115,11 @@ ul.report-reasons {
   color: #000;
 }
 
+body.show-controversial .comment.controversial>.entry .score:after {
+  content: '†';
+  color: #ff5555;
+}
+
 /* active thing */
 .res .RES-keyNav-activeElement,
 .res .RES-keyNav-activeElement .md-container,
