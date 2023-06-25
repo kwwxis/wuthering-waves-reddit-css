@@ -423,10 +423,6 @@ body .md del {
     background: #424a52 !important;
 }
 
-.RES-keyNav-activeElement,
-.RES-keyNav-activeElement .md-container {
-    background: transparent !important;
-}
 html body.entry.res-selected,
 html body.entry.res-selected .md-container {
     background-color: transparent !important;

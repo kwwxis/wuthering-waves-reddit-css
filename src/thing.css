@@ -121,7 +121,7 @@ body.show-controversial .comment.controversial>.entry .score:after {
 }
 
 /* active thing */
-.res .RES-keyNav-activeElement,
+.res .RES-keyNav-activeElement:not(.link),
 .res .RES-keyNav-activeElement .md-container,
 .res .entry.res-selected,
 .res .entry.res-selected .md-container,
