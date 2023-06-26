@@ -367,7 +367,8 @@ body, body .md,
 .res.res-nightmode .content .sitetable .thing .md,
 body .md blockquote,
 body .md del {
-  color: #c7d0d9;
+  color: #f0f2f5;
+  font-family: -apple-system,San Francisco Display,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .res-nightmode .new-comment .usertext-body {
