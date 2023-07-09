@@ -127,7 +127,7 @@
 .comment-permalink-page .commentarea > .sitetable > .comment:before,
 .comment-permalink-page #bottom-comments > .sitetable > .comment:before,
 .comment-permalink-page.comments-page .commentarea>.infobar:before {
-    background: #FFDC89;
+    background: #3f61bd;
 }
 
 /* permalink comment infobar
@@ -140,8 +140,11 @@
     font-family: Calibri,Segoe,"Segoe UI",Verdana,Arial,sans-serif;
     font-size: 14px;
     position: relative;
-    background: #ffc;
-    border: 1px solid #e3e3e3;
+    background: #343c4ec7;
+    border: 1px solid #6f96f073;
+}
+.usertext.border .usertext-body {
+  background: rgba(255,255,255,0.03);
 }
 
 /* comments - alternating bg color
