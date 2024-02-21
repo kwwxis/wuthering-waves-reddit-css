@@ -676,6 +676,10 @@ html:not(.res) .titlebox .fancy-toggle-button.subscribe-button.toggle a.option.a
 
 /* sidebar lists
 --------------------------------------------------------------------------------*/
+.side .md ul, .side .md ol {
+  padding-left: 20px;
+}
+
 .side .md > ol {
     counter-reset: siderules;
     list-style: none;
