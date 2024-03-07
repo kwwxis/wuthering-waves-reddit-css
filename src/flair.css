@@ -18,7 +18,8 @@
   z-index: 9999;
 }
 
-.side .flairselector {
+.side .flairselector,
+#newlink-flair-dropdown {
   position: absolute;
 }
 
