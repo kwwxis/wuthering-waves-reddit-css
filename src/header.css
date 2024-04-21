@@ -51,7 +51,7 @@
 #header-bottom-left:after {
   background: #000 url(%%banner%%);
   background-size: cover;
-  background-position: center -29px;
+  background-position: center 0;
   background-repeat: no-repeat;
   position: absolute;
   top: 12px;
@@ -95,7 +95,6 @@
     background: url(%%logo%%) no-repeat center / 440px;
     transition: all 100ms linear;
     opacity: 0.9;
-  background: 0;
 }
 .pagename a:hover {
     opacity: 1;
