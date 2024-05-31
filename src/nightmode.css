@@ -407,7 +407,13 @@ body .md del {
 .commentarea .comment .comment .comment .comment,
 .commentarea .comment .comment .comment .comment .comment .comment,
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+
+.res.res-nightmode .commentarea .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
 {
     background-color: #2d3339 !important;
     border: 0 !important;
@@ -420,6 +426,14 @@ body .md del {
 .commentarea .comment .comment .comment .comment .comment .comment .comment,
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment,
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
+
+.res.res-nightmode .comment,
+.res.res-nightmode .commentarea .comment,
+.res.res-nightmode .commentarea .comment .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
 {
     background-color: #292e33 !important;
     border: 0 !important;

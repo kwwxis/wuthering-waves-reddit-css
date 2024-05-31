@@ -149,24 +149,6 @@
 
 /* comments - alternating bg color
 --------------------------------------------------------------------------------*/
-.commentarea .comment .comment,
-.commentarea .comment .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
-{
-    background-color: #f4f7f8 !important;
-}
-
-.commentarea .comment,
-.commentarea .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment,
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
-{
-    background-color: #fff !important;
-}
 
 .commentarea .comment.spam .comment.spam,
 .commentarea .comment.spam .comment.spam .comment.spam .comment.spam,
