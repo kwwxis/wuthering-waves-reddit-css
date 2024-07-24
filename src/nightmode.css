@@ -413,7 +413,13 @@ body .md del {
 .res.res-nightmode .commentarea .comment .comment .comment .comment,
 .res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment,
 .res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment,
-.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+
+html.res .res-commentBoxes .comment .comment,
+html.res .res-commentBoxes .comment .comment .comment .comment,
+html.res .res-commentBoxes .comment .comment .comment .comment .comment .comment
+html.res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment 
 {
     background-color: #2d3339 !important;
     border: 0 !important;
@@ -433,7 +439,14 @@ body .md del {
 .res.res-nightmode .commentarea .comment .comment .comment .comment .comment,
 .res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment,
 .res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment,
-.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
+.res.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+
+html.res .res-commentBoxes .comment,
+html.res .res-commentBoxes .comment .comment .comment,
+html.res .res-commentBoxes .comment .comment .comment .comment .comment,
+html.res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment
+html.res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
 {
     background-color: #292e33 !important;
     border: 0 !important;
